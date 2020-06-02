@@ -11,7 +11,8 @@
     <a-scene background="color: #FAFAFA" inspector>
 
       <a-assets>
-          <img id="schilderij" src="images/schilderij.jpg" />
+          <img id="schilderij" src="images/schilderij.jpg"/>
+          <img id="tvNetflix" src="images/netflix.png"/>
           
       </a-assets>
 
@@ -62,7 +63,7 @@
       <!-- TV muur 2 -->
       <a-box position="-2 1 -2" rotation="0 90 0" color="black" shadow width="1.5" height="1" depth="0.1"></a-box>
       <!-- TVscherm muur 2 -->
-      <a-box position="-2 1 -2" rotation="0 90 0" color="white" shadow width="1.2" height="0.8" depth="0.12"></a-box>
+      <a-box position="-2 1 -2" rotation="0 90 0" color="white" shadow width="1.2" height="0.8" depth="0.12" material="src:#schilderij; repeat: 1"></a-box>
       <!-- klein tafel -->
       <a-box position="0 0.3 -2.3" rotation="0 90 0" color="white" shadow width="1.5" height="0.05" depth="0.7" material="color: white; side: doudle; transparent: true; opacity: 0.5"></a-box>
       <!-- klein tafel poot 1 -->
